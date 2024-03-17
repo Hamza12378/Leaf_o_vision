@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Corn-Leaf-Diseases-Detection-master.iml" filepath="$PROJECT_DIR$/.idea/Corn-Leaf-Diseases-Detection-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Leaf.iml" filepath="$PROJECT_DIR$/.idea/Leaf.iml" />
     </modules>
   </component>
 </project>
