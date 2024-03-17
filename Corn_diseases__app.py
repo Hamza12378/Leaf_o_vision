@@ -4,12 +4,12 @@ import tensorflow as tf
 from keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input as MobileNetV2_preprocess_input
 
 # App title
-st.title('Corn Leaf Diseases Identifier Web App')
+st.title('Leaf Diseases Identifier Web App by Hamza And Asfan ')
 
 ## APP info    
 st.write('''
 ## About
-
+Kida fer 
 The plant diseases compose a threat to global food security and smallholder farmers whose livelihoods depend mainly on agriculture and healthy crops. 
 In developing countries, smallholder farmers produce more than 80% of the agricultural production, 
 and reports indicate that more than fifty percent loss in crop due to pests and diseases. 
