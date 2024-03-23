@@ -22,6 +22,17 @@ The Notebook, model and documentation(streamlit script) are available on [Github
 Made by Luis Fernando Salazar S.
 
 ''')
+st.markdown(
+    f"""
+       <style>
+       .stApp {{
+           background: url("https://wallpaperbat.com/img/161069-neural-network-wallpaper.gif");
+           background-size: left-align
+       }}
+       </style>
+       """,
+    unsafe_allow_html=True
+)
 
 ## load file
 st.sidebar.write("# File Required")
