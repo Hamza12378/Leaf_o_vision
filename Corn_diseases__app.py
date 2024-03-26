@@ -4,22 +4,20 @@ import tensorflow as tf
 from keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input as MobileNetV2_preprocess_input
 
 # App title
-st.title('Leaf Diseases Identifier Web App by Hamza And Asfan ')
+st.title('Leaf Diseases Identifier Web App ')
 
 ## APP info    
 st.write('''
 ## About
 Kida fer 
-The plant diseases compose a threat to global food security and smallholder farmers whose livelihoods depend mainly on agriculture and healthy crops. 
+Plant diseases threaten global food security and smallholder farmers whose livelihoods depend mainly on agriculture and healthy crops. 
 In developing countries, smallholder farmers produce more than 80% of the agricultural production, 
-and reports indicate that more than fifty percent loss in crop due to pests and diseases. 
-The world population expected to grow to more than 9.7 billion by 2050, making food security a major concern in the upcoming years. Hence, rapid and accurate methods of indentying plant diseases are needed to do the appropiate measures.
+and reports indicate that more than fifty percent loss in crops due to pests and diseases. 
+The world population is expected to grow to more than 9.7 billion by 2050, making food security a major concern in the upcoming years. Hence, rapid and accurate methods of identifying plant diseases are needed to do the appropiate measures.
 
-**This Streamlit App utilizes a Deep Learning model to detect diseases(Northern Leaf Blight,Common Rust,Gray Leaf Spot) that attact the corn leaves, based in digital images.**
+**This Streamlit App utilizes a Deep Learning model to detect diseases(Northern Leaf Blight, Common Rust, Gray Leaf Spot) that affect the corn leaves, based on digital images.**
 
-The Notebook, model and documentation(streamlit script) are available on [Github](https://github.com/Luissalazarsalinas/Corn-Leaf-Diseases-Detection)
-
-Made by Luis Fernando Salazar S.
+Made by Asfan and Hamza.
 
 ''')
 st.markdown(
