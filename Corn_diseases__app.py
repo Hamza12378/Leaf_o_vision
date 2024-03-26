@@ -9,12 +9,8 @@ st.title('Leaf Diseases Identifier Web App ')
 ## APP info    
 st.write('''
 ## About
-
-Plant diseases threaten global food security and smallholder farmers whose livelihoods depend mainly on agriculture and healthy crops. 
-In developing countries, smallholder farmers produce more than 80% of the agricultural production, 
-and reports indicate that more than fifty percent loss in crops due to pests and diseases. 
-The world population is expected to grow to more than 9.7 billion by 2050, making food security a major concern in the upcoming years. Hence, rapid and accurate methods of identifying plant diseases are needed to do the appropiate measures.
-
+Plant diseases pose a significant threat to global food security, but quickly identifying them remains challenging and time-consuming. A plant that lacks essential nutrients cannot complete its life cycle, while an excess of nutrients can be harmful or fatal as well. Agro-vision aims to offer a more efficient and rapid method to assist non-experts in identifying unhealthy rice plants from digital images and detect diseases that attack the corn leaves.
+Agrovision will also revolutionize disease detection in corn leaves by replacing traditional techniques such as visual inspection. Instead of relying on subjective assessments, farmers will be able to use digital image processing techniques and Convolutional Neural Networks (CNN) to accurately identify diseases. This approach will provide a more objective and reliable method for detecting diseases, reducing the reliance on visual inspection and the need for consulting field guides or agricultural experts.
 **This Streamlit App utilizes a Deep Learning model to detect diseases(Northern Leaf Blight, Common Rust, Gray Leaf Spot) that affect the corn leaves, based on digital images.**
 
 Made by Asfan and Hamza.
