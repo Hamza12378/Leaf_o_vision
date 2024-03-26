@@ -9,7 +9,7 @@ st.title('Leaf Diseases Identifier Web App ')
 ## APP info    
 st.write('''
 ## About
-Kida fer 
+
 Plant diseases threaten global food security and smallholder farmers whose livelihoods depend mainly on agriculture and healthy crops. 
 In developing countries, smallholder farmers produce more than 80% of the agricultural production, 
 and reports indicate that more than fifty percent loss in crops due to pests and diseases. 
