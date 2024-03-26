@@ -9,9 +9,17 @@ st.title('Leaf Diseases Identifier Web App ')
 ## APP info    
 st.write('''
 ## About
-Plant diseases pose a significant threat to global food security, but quickly identifying them remains challenging and time-consuming. A plant that lacks essential nutrients cannot complete its life cycle, while an excess of nutrients can be harmful or fatal as well. Agro-vision aims to offer a more efficient and rapid method to assist non-experts in identifying unhealthy rice plants from digital images and detect diseases that attack the corn leaves.
-Agrovision will also revolutionize disease detection in corn leaves by replacing traditional techniques such as visual inspection. Instead of relying on subjective assessments, farmers will be able to use digital image processing techniques and Convolutional Neural Networks (CNN) to accurately identify diseases. This approach will provide a more objective and reliable method for detecting diseases, reducing the reliance on visual inspection and the need for consulting field guides or agricultural experts.
-**This Streamlit App utilizes a Deep Learning model to detect diseases(Northern Leaf Blight, Common Rust, Gray Leaf Spot) that affect the corn leaves, based on digital images.**
+
+Plant diseases pose a significant threat to global food security, but quickly identifying them remains challenging and time-consuming.
+A plant that lacks essential nutrients cannot complete its life cycle, while an excess of nutrients can be harmful or fatal as well. 
+Agro-vision aims to offer a more efficient and rapid method to assist non-experts in identifying unhealthy rice plants from digital images
+and detect diseases that attack the corn leaves.
+Agrovision will also revolutionize disease detection in corn leaves by replacing traditional techniques such as visual inspection. Instead
+of relying on subjective assessments, farmers will be able to use digital image processing techniques and Convolutional Neural Networks (CNN) 
+to accurately identify diseases. This approach will provide a more objective and reliable method for detecting diseases, reducing the reliance
+on visual inspection and the need for consulting field guides or agricultural experts.
+**This Streamlit App utilizes a Deep Learning model to detect diseases(Northern Leaf Blight, Common Rust, Gray Leaf Spot) that affect the corn 
+leaves, based on digital images.**
 
 Made by Asfan and Hamza.
 
