@@ -26,16 +26,19 @@ Made by Asfan and Hamza.
 
 ''')
 st.markdown(
-    f"""
-       <style>
-       .stApp {{
-           background: url("https://wallpaperbat.com/img/161069-neural-network-wallpaper.gif");
-           background-size: left-align
-       }}
-       </style>
-       """,
-    unsafe_allow_html=True
-)
+         f"""
+         <style>
+         .stApp {{
+            
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+                url("https://images.unsplash.com/photo-1524486361537-8ad15938e1a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80");
+            background-size: cover;
+            box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
 
 ## load file
 st.sidebar.write("# File Required")
