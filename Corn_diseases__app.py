@@ -38,7 +38,7 @@ st.markdown(
          </style>
          """,
          unsafe_allow_html=True
-     )
+)
 
 ## load file
 st.sidebar.write("# File Required")
