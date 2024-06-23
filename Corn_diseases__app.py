@@ -4,24 +4,41 @@ import tensorflow as tf
 from keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input as MobileNetV2_preprocess_input
 
 # App title
-st.title('Corn Leaf Diseases Identifier Web App')
+st.title('Leaf Diseases Identifier Web App ')
 
 ## APP info    
 st.write('''
 ## About
 
-The plant diseases compose a threat to global food security and smallholder farmers whose livelihoods depend mainly on agriculture and healthy crops. 
-In developing countries, smallholder farmers produce more than 80% of the agricultural production, 
-and reports indicate that more than fifty percent loss in crop due to pests and diseases. 
-The world population expected to grow to more than 9.7 billion by 2050, making food security a major concern in the upcoming years. Hence, rapid and accurate methods of indentying plant diseases are needed to do the appropiate measures.
+Plant diseases pose a significant threat to global food security, but quickly identifying them remains challenging and time-consuming.
+Agro-vision aims to offer a more efficient and rapid method to assist non-experts in identifying unhealthy rice plants from digital images
+and detect diseases that attack the corn leaves. 
 
-**This Streamlit App utilizes a Deep Learning model to detect diseases(Northern Leaf Blight,Common Rust,Gray Leaf Spot) that attact the corn leaves, based in digital images.**
 
-The Notebook, model and documentation(streamlit script) are available on [Github](https://github.com/Luissalazarsalinas/Corn-Leaf-Diseases-Detection)
+Now, Agrovision is revolutionizing disease detection in corn leaves by replacing traditional techniques such as visual inspection. 
+Instead of relying on subjective assessments, farmers can now accurately identify diseases in corn plants.
 
-Made by Luis Fernando Salazar S.
+ 
+This web app employs a Deep Learning model to identify diseases (such as Northern Leaf Blight, Common Rust, and Gray Leaf Spot) that
+impact corn leaves, using digital images
+
+Made by Asfan and Hamza.
 
 ''')
+st.markdown(
+         f"""
+         <style>
+         .stApp {{
+            
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+                url("https://images.unsplash.com/photo-1524486361537-8ad15938e1a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80");
+            background-size: cover;
+            box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+)
 
 ## load file
 st.sidebar.write("# File Required")
